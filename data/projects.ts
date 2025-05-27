@@ -29,14 +29,14 @@ export const projects: Project[] = [
     demoUrl: "https://example.com/financial-calculator",
   },
   {
-    id: "student-resource-portal",
-    title: "Student Resource Portal",
+    id: "credit-risk-analysis",
+    title: "Credit Risk Analysis",
     description:
-      "A comprehensive web platform for university students to access study materials, practice exams, and collaborative learning tools for actuarial and computer science courses.",
-    technologies: "Next.js, Tailwind CSS, MongoDB",
-    image: "/placeholder.svg?height=200&width=400",
-    demoUrl: "https://example.com/student-portal",
-    githubUrl: "https://github.com/maxsonchen/student-portal",
+      "A credit risk analysis model for the JP Morgan Quantitative Research Job Simulation. Utilises a random forest classifier machine learning model to predict the probability of a customer defaulting and subsequently the expected loss to be incurred.",
+    technologies: "Python",
+    image: "/projects/credit-risk-analysis.png",
+    demoUrl: "https://github.com/maxsonchen/credit-risk-analyst",
+    githubUrl: "https://github.com/maxsonchen/credit-risk-analyst",
   },
   {
     id: "risk-assessment-tool",
